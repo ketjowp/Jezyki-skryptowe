@@ -39,6 +39,6 @@ finally:
                 print(zenskie[i])
             with open("zenskie.txt","wb") as f:
                 pickle.dump(zenskie,f)
-            with open("zenskie.txt","wb") as f:
+            with open("meskie.txt","wb") as f:
                 pickle.dump(meskie,f)
             break
