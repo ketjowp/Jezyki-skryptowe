@@ -18,7 +18,7 @@ class Punkt(object):
 
 class Kolo(Punkt):
     def __init__(self,x=0,y=0,r=1):
-        Punkt.__init__(self,x,y)
+        super().__init__(x,y)
         self.r=r
     def obwod(self):
         return math.pi*2*self.r
